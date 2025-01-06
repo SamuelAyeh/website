@@ -1,0 +1,278 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container, .small-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(to right, #4caf50, #87e8b9);
+    padding: 40px 0;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #000;
+}
+
+.header .btn {
+    background: white;
+    color: #4caf50;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.header .btn:hover {
+    background: #4caf50;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Section */
+.header .row .col-2 h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.header .row .col-2 p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+/* Categories */
+.categories img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.categories img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Products */
+.small-container .title {
+    font-size: 28px;
+    margin: 30px 0;
+    color: #4caf50;
+    text-align: center;
+    font-weight: 600;
+}
+
+.col-4 {
+    flex-basis: 23%;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.col-4 img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.col-4:hover img {
+    transform: scale(1.05);
+}
+
+.col-4 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #333;
+}
+
+.col-4 .rating i {
+    color: #ff9800;
+    margin-right: 2px;
+}
+
+.col-4 p {
+    font-size: 16px;
+    color: #4caf50;
+    font-weight: 700;
+}
+
+/* Offer Section */
+.offer {
+    background: linear-gradient(to right, #fff, #87e8b9);
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.offer img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.offer h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.offer p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0 20px;
+}
+
+.offer .btn {
+    background: #4caf50;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.offer .btn:hover {
+    background: white;
+    color: #4caf50;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonial Section */
+.testimonial {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonial .col-3 {
+    flex-basis: 30%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.testimonial h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Brands Section */
+.brands img {
+    width: 120px;
+    margin: 10px;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.brands img:hover {
+    filter: none;
+}
+
+/* Footer */
+.footer {
+    background: #4caf50;
+    color: white;
+    padding: 50px 20px;
+    margin-top: 50px;
+}
+
+.footer .footer-col-1, .footer .footer-col-2, .footer .footer-col-3 {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+
+.footer h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer ul li:hover {
+    color: #87e8b9;
+    cursor: pointer;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer hr {
+    margin: 20px 0;
+    border-color: white;
+    opacity: 0.3;
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
